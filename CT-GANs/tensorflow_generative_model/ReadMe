@@ -1,0 +1,5 @@
+To get the results on MNIST dataset with 1000 examples, run CT_gan_mnist.py
+For 1000-example CIFAR-10 training, run CT_gan_cifar.py
+For all examples CIFAR-10 training with ResNet, run CT_gan_cifar_resnet.py to get the desired inception score. Turning condition into False will perform the unsupervised training.
+
+(all the structures and hyper-parameters are kept the same with GP-GAN to make a fair comparision)
