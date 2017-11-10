@@ -25,5 +25,5 @@ for 4000 labeled CIFAR-10 training.
 
 The version of time saving one is 
 CT-CIFAR-10_TE.py 
-temporal ensembling.
+with temporal ensembling.
 
