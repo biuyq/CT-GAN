@@ -113,7 +113,7 @@ l_unl2 = nn.log_sum_exp(output_before_softmax_unl2)
 l_unl_ = nn.log_sum_exp(output_before_softmax_unl_)
 l_unl2_ = nn.log_sum_exp(output_before_softmax_unl2_) 
 l_gen = nn.log_sum_exp(output_before_softmax_gen)
-loss_lab = -T.mean(l_lab) + T.mean(T.mean(nn.log_sum_exp(output_before_softmax_lab))
+loss_lab = -T.mean(l_lab) + T.mean(T.mean(nn.log_sum_exp(output_before_softmax_lab)))
 
 
 loss_comp = T.mean(lasagne.objectives.squared_error(T.nnet.softmax(output_before_softmax_unl),T.nnet.softmax(output_before_softmax_unl2)))
