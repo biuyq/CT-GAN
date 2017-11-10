@@ -1,5 +1,5 @@
 1. For MNIST, run the CT_MNIST.py 
-2. For CIFAR-10, run the CT_CIFAR-10.py
+2. For CIFAR-10, run the CT_CIFAR.py
 
 For MNIST, to give a fair comparision, the structure is the same as in improved GANs. However, as there is no nromalization term except the softmax, we only operate the consistency term on the last layer. 
 
