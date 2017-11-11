@@ -20,10 +20,10 @@ For the semi-supervised classification work, run:
 CT-MNIST.py 
 for 100 labeled MNIST training. 
 
-Run: CT_CIFAR.py 
+Run: CT_CIFAR.py OR CT_CIFAR-10_TE.py
 for 4000 labeled CIFAR-10 training. 
 
 The version of time saving one is 
 CT-CIFAR-10_TE.py 
-with temporal ensembling.
+with temporal ensembling and the regular one is CT_CIFAR.py.
 
