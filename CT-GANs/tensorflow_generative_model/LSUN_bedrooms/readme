@@ -1,0 +1,2 @@
+The folder presents the code for LSUN bedrooms, all the hyper parameters are the same as in improved WGAN except we add dropout and CT term in the code.
+LSUN bedrooms training, change the path in tflib/imagenet.py of line 42 for your own LSUN dataset, and then run wgan_LSUN_Bedrooms128.py.
